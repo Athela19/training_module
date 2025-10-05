@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Action harus didefinisikan dulu -->
+    <record id="action_training_demo" model="ir.actions.act_url">
+        <field name="name">Training Demo</field>
+        <field name="url">/training/hello</field>
+        <field name="target">self</field>
+    </record>
+
+    <!-- Baru kemudian menu -->
+    <menuitem id="menu_training_root" name="Training" sequence="10"/>
+    <menuitem id="menu_training_demo" name="Demo Page"
+              parent="menu_training_root" sequence="1"
+              action="action_training_demo"/>
+</odoo>
