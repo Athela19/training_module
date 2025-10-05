@@ -1,6 +1,6 @@
 {
     'name': 'Training Module',
-    'version': '2.4.2',
+    'version': '2.4.3',
     'summary': 'Modul ini versi 2.5',
     'description': 'Modul ini hanya menambahkan menu Training ke Odoo.',
     'author': 'Muhammad Syarif',
